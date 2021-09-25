@@ -8,10 +8,14 @@ header{
   background-size:cover;
   color:#FFFFFF;
 }
-/* .social{
-  margin-bottom:0px;
-} */
+.heading{
+  padding-top:15%;
+  padding-left:150px;
+  
+}
 .social img{
   height:32px;
+  padding-top:5%;
+  padding-right:16px;
   
 }
