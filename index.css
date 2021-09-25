@@ -1,0 +1,10 @@
+*{
+  font-family: roboto;
+}
+header{
+  height:80vh;
+  background-image: url("img/camera.jpg");
+  background-position: center;
+  background-size:cover;
+  color:#FFFFFF;
+}
