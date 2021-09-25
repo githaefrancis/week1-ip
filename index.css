@@ -1,8 +1,8 @@
 * {
   font-family: roboto;
 }
-html{
-  background-image:url("img/main_background.mp4")
+html {
+  background-image: url("img/main_background.mp4");
 }
 .header {
   height: 80vh;
@@ -10,7 +10,6 @@ html{
   background-position: center;
   background-size: cover;
   color: #ffffff;
-  
 }
 .heading {
   margin-left: 100px;
@@ -18,50 +17,53 @@ html{
   /* background-color: #473c3c80; */
   padding-top: 200px;
   width: 400px;
-  height:10px;
+  height: 10px;
 }
-.heading h1{
+.heading h1 {
   font-size: 48px;
 }
 .social img {
   height: 32px;
   padding-top: 5%;
   padding-right: 16px;
+  padding-left: 5%;
+  padding-bottom: 5%;
 }
-.container h1,h4 {
+.container h1,
+h4 {
   text-align: center;
 }
-.container h4{
-  color:white;
-  font-size:24px;
+.container h4 {
+  color: white;
+  font-size: 24px;
 }
 .container h1 {
   background-color: rgb(196, 196, 196, 0.56);
 }
-.container img{
+.container img {
   width: 480px;
-  height:320px;
+  height: 320px;
 }
-.cute-animals, .nature, .delicacies{
-  display:flex;
+.cute-animals,
+.nature,
+.delicacies {
+  display: flex;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.footer{
-
-  height:300px;
-  background-color:#353031;
-  display:flex;
+.footer {
+  height: 300px;
+  background-color: #353031;
+  display: flex;
   justify-content: space-around;
-  color:white;
+  color: white;
 }
 
-#background{
-  width:100vw;
-  height:100vh;
-  object-fit:cover;
-  position:fixed;
-  z-index:-1;
-
+#background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
 }
