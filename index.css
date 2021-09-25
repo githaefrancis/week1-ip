@@ -1,21 +1,34 @@
-*{
+* {
   font-family: roboto;
 }
-header{
-  height:80vh;
+header {
+  height: 80vh;
   background-image: url("img/camera.jpg");
   background-position: center;
-  background-size:cover;
-  color:#FFFFFF;
-}
-.heading{
-  padding-top:15%;
-  padding-left:150px;
+  background-size: cover;
+  color: #ffffff;
   
 }
-.social img{
-  height:32px;
-  padding-top:5%;
-  padding-right:16px;
-  
+.heading {
+  margin-left: 200px;
+  padding-top: 15%; 
+  /* padding-left: 150px; */
+  /* background-color: #473c3c80; */
+  width: 250px;
+  height:fit-content;
+}
+.social img {
+  height: 32px;
+  padding-top: 5%;
+  padding-right: 16px;
+}
+.container h1 {
+  text-align: center;
+}
+.container img{
+  width: 480px;
+}
+.cute-animals{
+  display:flex;
+  justify-content: space-between;
 }
