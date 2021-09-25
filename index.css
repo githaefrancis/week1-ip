@@ -8,3 +8,10 @@ header{
   background-size:cover;
   color:#FFFFFF;
 }
+/* .social{
+  margin-bottom:0px;
+} */
+.social img{
+  height:32px;
+  
+}
