@@ -1,7 +1,10 @@
 * {
   font-family: roboto;
 }
-header {
+html{
+  background-image:url("img/main_background.mp4")
+}
+.header {
   height: 80vh;
   background-image: url("img/camera.jpg");
   background-position: center;
@@ -10,20 +13,30 @@ header {
   
 }
 .heading {
-  margin-left: 200px;
-  padding-top: 15%; 
-  /* padding-left: 150px; */
+  margin-left: 100px;
+  padding-left: 100px;
   /* background-color: #473c3c80; */
-  width: 250px;
-  height:fit-content;
+  padding-top: 200px;
+  width: 400px;
+  height:10px;
+}
+.heading h1{
+  font-size: 48px;
 }
 .social img {
   height: 32px;
   padding-top: 5%;
   padding-right: 16px;
 }
-.container h1,h6 {
+.container h1,h4 {
   text-align: center;
+}
+.container h4{
+  color:white;
+  font-size:24px;
+}
+.container h1 {
+  background-color: rgb(196, 196, 196, 0.56);
 }
 .container img{
   width: 480px;
@@ -32,6 +45,7 @@ header {
 .cute-animals, .nature, .delicacies{
   display:flex;
   justify-content: space-between;
+  flex-wrap:wrap;
 }
 
 .footer{
@@ -41,4 +55,13 @@ header {
   display:flex;
   justify-content: space-around;
   color:white;
+}
+
+#background{
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  position:fixed;
+  z-index:-1;
+
 }
