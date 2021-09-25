@@ -28,7 +28,7 @@ header {
 .container img{
   width: 480px;
 }
-.cute-animals{
+.cute-animals, .nature, .delicacies{
   display:flex;
   justify-content: space-between;
 }
