@@ -27,6 +27,7 @@ header {
 }
 .container img{
   width: 480px;
+  height:320px;
 }
 .cute-animals, .nature, .delicacies{
   display:flex;
