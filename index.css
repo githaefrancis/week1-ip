@@ -4,6 +4,9 @@
 html {
   background-image: url("img/main_background.mp4");
 }
+body{
+  margin:0px;
+}
 .header {
   height: 80vh;
   background-image: url("img/camera.jpg");
@@ -14,13 +17,16 @@ html {
 .heading {
   margin-left: 100px;
   padding-left: 100px;
-  /* background-color: #473c3c80; */
   padding-top: 200px;
-  width: 400px;
+  width: 500px;
   height: 10px;
 }
 .heading h1 {
   font-size: 48px;
+}
+.social{
+  display:flex;
+  justify-content:flex-start;
 }
 .social img {
   height: 32px;
@@ -29,6 +35,10 @@ html {
   padding-left: 5%;
   padding-bottom: 5%;
 }
+.container{
+  padding-left:10px;
+  padding-right:10px;
+}
 .container h1,
 h4 {
   text-align: center;
@@ -36,6 +46,9 @@ h4 {
 .container h4 {
   color: white;
   font-size: 24px;
+  height: 48px;
+  background-color: black;
+  padding-top: 20px;
 }
 .container h1 {
   background-color: rgb(196, 196, 196, 0.56);
@@ -67,3 +80,10 @@ h4 {
   position: fixed;
   z-index: -1;
 }
+/* a:link{
+background-color: blue;
+}
+a:visited{
+  background-color: red;
+}
+a:hover{height:120%} */
