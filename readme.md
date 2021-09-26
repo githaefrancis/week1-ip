@@ -12,4 +12,4 @@ You can find the figma design by following the link below:
 
 ## Access.
 To view the website click: 
-[Photography Website](githaefrancis.github.io/week1-ip)
+[Photography Website](https://githaefrancis.github.io/week1-ip)
