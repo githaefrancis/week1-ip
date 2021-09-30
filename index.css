@@ -68,8 +68,8 @@ h4 {
 }
 
 .footer {
-  height: 300px;
-  background-color: #353031;
+  height: 150px;
+ 
   display: flex;
   justify-content: space-around;
   color: white;
@@ -87,6 +87,19 @@ h4 {
 }
 .container a:hover h4{
   background-color: blue;
+}
+
+.last_section{
+
+  background-color: #353031;
+}
+.submission{
+  text-align:center;
+  padding-bottom: 50px;
+  vertical-align: center;
+}
+textarea{
+  vertical-align: top;
 }
 /* a:link{
 background-color: blue;
